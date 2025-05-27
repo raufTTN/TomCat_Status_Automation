@@ -1,4 +1,6 @@
 EC2 Tomcat Status Checker via AWS SSM
+
+
 This Python script is designed to remotely check the status of the Tomcat service (tomcat, tomcat8, or tomcat9) on AWS EC2 instances using AWS Systems Manager (SSM). It uses the Boto3 SDK to interact with EC2 and SSM services.
 
 📌 Features
