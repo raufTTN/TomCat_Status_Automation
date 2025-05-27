@@ -24,3 +24,20 @@ This Python script is designed to remotely check the status of the Tomcat servic
 -> A security group attached to your instance must allow port 22 (SSH) access.
 
 -> Python environment with Boto3 installed.
+
+
+
+Steps ----
+We can use this script on AWS CLI on console as well as on our system as well with AWS CLI.
+
+Step 1. Go to AWS CLI.
+
+Step 2. Pull the GitHub repo -- git clone https://github.com/raufTTN/TomCat_Status_Automation
+
+Step 3. cd TomCat_Status_Automation
+
+Step 4. Give permission to script -- chmod +x TomCatStatus.py
+
+Step 5. pyhton3 TomCatStatus.py
+
+Step 6. It will fetch all servers and will SSM into each servers to check tomcat status.
