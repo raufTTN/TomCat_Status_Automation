@@ -36,8 +36,6 @@ Step 2. Pull the GitHub repo -- git clone https://github.com/raufTTN/TomCat_Stat
 
 Step 3. cd TomCat_Status_Automation
 
-Step 4. Give permission to script -- chmod +x TomCatStatus.py
+Step 4. python3 TomCatStatus.py
 
-Step 5. pyhton3 TomCatStatus.py
-
-Step 6. It will fetch all servers and will SSM into each servers to check tomcat status.
+Step 5. It will fetch all servers and will SSM into each servers to check tomcat status.
