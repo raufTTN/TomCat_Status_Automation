@@ -36,7 +36,7 @@ Step 2. Pull the GitHub repo -- git clone https://github.com/raufTTN/TomCat_Stat
 
 Step 3. cd TomCat_Status_Automation
 
-Step 4. Run the script file by command -- python3 <file-name>.py
+Step 4. Run the script file by command -- python3 file-name.py
 
 Note - If you are using tag based script then you have to pass the argument as 'Application' or 'Worker' the command will change --
 python3 <file-name> --type Application   (Taking example of Application Nodes here)
